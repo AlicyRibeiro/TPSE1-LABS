@@ -1,3 +1,30 @@
+# =====================================================================================
+#
+#       Filename:  Makefile
+#
+#    Description:  Arquivo de automação da compilação do projeto bare metal
+#                  para a BeagleBone Black.
+#
+#                  Responsável por:
+#                  - Compilar o arquivo Assembly start.s
+#                  - Compilar o arquivo C main.c
+#                  - Linkar os objetos utilizando memmap.ld
+#                  - Gerar o executável ELF
+#                  - Converter o ELF para binário puro (.boot)
+#                  - Copiar automaticamente o binário para o diretório TFTP
+#                  - Gerar dump do executável para análise
+#
+#        Version:  1.0
+#        Created:  
+#       Revision:  none
+#
+#         Author:  Ana Alicy Ribeiro
+#   Organization:  Universidade Federal do Ceará - Campus Quixadá
+#      Discipline: Técnicas de Programação para Sistemas Embarcados I
+#        Practice: Prática 02 - Primeiro código para piscar um LED
+#
+# =====================================================================================
+
 CHAIN=arm-none-eabi
 CFLAGS=-std=c99 -Wall
 IPATH=-Iinc/
