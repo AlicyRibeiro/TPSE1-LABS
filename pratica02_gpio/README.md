@@ -122,6 +122,38 @@ for(ra = 0; ra < TIME; ra ++);
 
 ---
 
+## Compilação
+
+Para compilar o projeto:
+```
+
+make
+```
+Para remover arquivos gerados:
+```
+
+make clean
+```
+
+---
+
+## Execução na BeagleBone Black
+
+Após compilar, o binário é copiado automaticamente para:
+
+```
+/tftpboot/Gpio.bin
+```
+
+No U-Boot, o programa pode ser executado com:
+
+```
+setenv app "setenv autoload no; setenv ipaddr 10.4.1.2; setenv serverip 10.4.1.1; tftp 0x80000000 Gpio.bin; echo ***Booting to BareMetal***; go 0x80000000"
+run app
+```
+
+---
+
 ## Resultado Esperado
 
 Ao executar o programa:
