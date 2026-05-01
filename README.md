@@ -13,6 +13,6 @@ tpse1-labs/
 ├── multi-led-control/      # Controle sequencial de 4 LEDs internos + 1 externo
 ├── button-polling/         # (em desenvolvimento)
 ├── interrupt-control/      # (em desenvolvimento)
-├── frequency-timing/       # (em desenvolvimento)
+└── frequency-timing/       # (em desenvolvimento)
 
 ```
