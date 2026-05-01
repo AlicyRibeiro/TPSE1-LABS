@@ -11,14 +11,14 @@ Exemplo de organização da Prática 02:
 
 ```text
 pratica02/
-├── bin/                 # Binários gerados após a compilação
-├── inc/                 # Arquivos de cabeçalho (.h)
-├── src/                 # Arquivos-fonte em C e Assembly
-├── Makefile             # Automação da compilação do projeto
-├── memmap.ld            # Linker Script para posicionamento na memória
-├── pratica_02_led_21.pdf# Documento de apoio da prática
-├── script.txt           # Comandos utilizados no U-Boot
-├── start.s              # Código de inicialização em Assembly ARM
-└── README.md            # Explicação detalhada da prática
+├── bin/                   # Binários gerados após a compilação
+├── inc/                   # Arquivos de cabeçalho (.h)
+├── src/                   # Arquivos-fonte em C e Assembly
+├── Makefile               # Automação da compilação do projeto
+├── memmap.ld              # Linker Script para posicionamento na memória
+├── pratica_02_led_21.pdf  # Documento de apoio da prática
+├── script.txt             # Comandos utilizados no U-Boot
+├── start.s                # Código de inicialização em Assembly ARM
+└── README.md              # Explicação detalhada da prática
 
 ```
