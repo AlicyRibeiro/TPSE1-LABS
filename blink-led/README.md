@@ -25,3 +25,12 @@ start.s     # Inicialização
 script.txt  # Execução no U-Boot
 README.md   # Este arquivo
 ```
+
+---
+
+## Como Compilar
+
+
+---
+
+## Resultado Esperado
