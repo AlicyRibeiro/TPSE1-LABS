@@ -16,3 +16,5 @@ tpse1-labs/
 └── frequency-timing/       # (em desenvolvimento)
 
 ```
+
+## REPOSITORIO EM ANDAMENTO
